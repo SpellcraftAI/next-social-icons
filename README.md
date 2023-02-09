@@ -14,4 +14,4 @@ A Next.js-compatible social icons library based on `react-social-icons`.
 <SocialIcon size={64} platform="discord" />
 ```
 
-![](/public/icons.png)
+![](https://raw.githubusercontent.com/ctjlewis/next-social-icons/master/public/icons.png)
