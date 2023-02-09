@@ -1,6 +1,6 @@
 {
   "name": "next-social-icons",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "description": "A Next.js-compatible social icons library based on `react-social-icons`.",
   "keywords": [
