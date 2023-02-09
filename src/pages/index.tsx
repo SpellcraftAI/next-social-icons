@@ -1,9 +1,5 @@
 import Head from "next/head";
-
-import { CardGrid } from "../components/CardGrid";
-import { Footer } from "../components/Footer";
-import { GetStarted } from "../components/GetStarted";
-import { Welcome } from "../components/Welcome";
+import { SocialIcon } from "../components/SocialIcon";
 
 export default function Home() {
   return (
@@ -14,13 +10,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Welcome />
-        <GetStarted />
-        <CardGrid />
+      <main style={{ background: "black" }}>
+        <SocialIcon size={64} platform="twitter" inverse />
+        <SocialIcon size={64} platform="github" />
+        <SocialIcon size={64} platform="discord" />
       </main>
-
-      <Footer />
     </>
   );
 }

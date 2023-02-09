@@ -17,4 +17,5 @@
 /**
  * Load this module's component styles.
  */
-@import "./components/index.css";
+ @import "@tsmodule/react";
+/* @import "./components/index.css"; */
