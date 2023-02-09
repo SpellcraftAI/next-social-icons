@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   reactStrictMode: true,
   webpack: (config) => {
     // config.experiments = { topLevelAwait: true };
@@ -16,3 +16,5 @@ module.exports = {
     return config;
   },
 };
+
+export default config;
